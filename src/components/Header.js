@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
   return (
     <header>
-    <nav className="bg-[#262626] ">
+    <nav className="bg-[#262626]">
         <div class="flex flex-wrap justify-between items-center mx-auto px-4">
             <a class="flex justify-start">
                 <img src="motionarteffect-img2.png" class="mr-3 h-6 sm:h-9" alt="Logo" />
