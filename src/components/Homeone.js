@@ -93,16 +93,29 @@ function Homeone() {
             <p className="text-[#b3acc5] pt-2">applications directly from your website.</p>
             <img  src="/motionarteffect-img11.png" alt="template" className="pt-8"/>
         </div>
-
         </div>
-
-
-
-        <div>
+        <div className="mt-16">
+        <div className="bg-[#0e0720]">
+        <div className="pt-8 px-8 rounded-lg">
+            <p className="text-[#ebe2fc] text-2xl font-semibold">Apply On Page</p>
+            <p className="text-[#b3acc5] pt-4">Take your website to new heights with Motion Art for Elementor. Embrace the</p>
+            <p className="text-[#b3acc5] pt-2">power of motion and animation.</p>
+            <img  src="/motionarteffect-img10.png" alt="template" className="pt-8"/>
+        </div>
+        </div>
 
         </div>
     </div>
 
+
+<div className="mt-32 flex justify-center">
+    <div className="bg-[#0e0720]">
+        <p className="text-[#eee5ff] text-4xl">Supported by All Browsers</p>
+        <p className="text-[#9890a9] pt-6">Rest assured , Motion Art is designed to be compatible</p>
+        <p className="text-[#9890a9]">with all major web browsers.</p>
+    <img  className="pt-8"src="/motionarteffect-img8.png" alt="browsers"/>
+    </div>
+</div>
 
 
 
