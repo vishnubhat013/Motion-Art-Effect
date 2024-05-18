@@ -2,7 +2,8 @@ import React from 'react'
 
 function Homeone() {
   return (
-    <div className='bg-[#0e0f1a] px-36'>
+
+    <div className='bg-[#0e0f1a] px-36 pb-32'>
       <div className=" px-4 pt-10 flex justify-between">
       <div>
         <img src="/MotionArtEffect-logo.png" alt="motion art effect"/>
@@ -129,7 +130,7 @@ function Homeone() {
     </div>
 </div>
 
-<div className="mt-14 flex justify-between">
+<div className="mt-14 flex justify-between ">
     <div className=" justify-between bg-[#1d162d] rounded-lg ">
     <img src="/motionarteffect-img9.png" alt="thunder"/>
     <div className="px-8 py-4">
@@ -154,10 +155,6 @@ function Homeone() {
     <p className="text-[#9890a9] pt-1 flex ">applications and administrators.</p>
     </div>
     </div>
-
-
-
-
 </div>
 
 
