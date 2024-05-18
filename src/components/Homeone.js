@@ -74,7 +74,7 @@ function Homeone() {
     </div>
 </div>
 
-    <div className="flex justify-center mt-28">
+    <div className="flex justify-center text-center mt-28">
     <div>
         <p className="text-[#eee5ff] md:text-5xl  text-3xl flex items-center  ">Apply On Any Section Or Enable</p>
         <p className="text-[#eee5ff] md:text-5xl  text-3xl flex justify-center pt-2">For Whole Page</p>
