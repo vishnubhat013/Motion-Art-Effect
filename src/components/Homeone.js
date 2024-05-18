@@ -108,15 +108,57 @@ function Homeone() {
     </div>
 
 
-<div className="mt-32 flex justify-center">
-    <div className="bg-[#0e0720]">
-        <p className="text-[#eee5ff] text-4xl">Supported by All Browsers</p>
-        <p className="text-[#9890a9] pt-6">Rest assured , Motion Art is designed to be compatible</p>
-        <p className="text-[#9890a9]">with all major web browsers.</p>
+<div className="mt-32 flex justify-center bg-[#1d162d] rounded-lg">
+    <div className="my-14">
+        <p className="text-[#eee5ff] text-3xl font-semibold">Supported by All Popular Browsers</p>
+        <p className="text-[#9890a9] pt-4 flex justify-center">Rest assured , Motion Art is designed to be compatible</p>
+        <p className="text-[#9890a9] flex justify-center pt-1">with all major web browsers.</p>
     <img  className="pt-8"src="/motionarteffect-img8.png" alt="browsers"/>
     </div>
 </div>
 
+
+<div>
+    <div className="mt-32">
+        <p className="text-[#eee5ff] text-4xl flex justify-center font-semibold">An All-Rounded Plugin with</p>
+        <p  className="text-[#eee5ff] text-4xl flex justify-center">Powerful Features</p>
+        <p className="text-[#9890a9] pt-6 flex justify-center">Whether you're a seasoned web designer or just starting out,Motion Art for</p>
+        <p className="text-[#9890a9] pt-1 flex justify-center">Elementor seamlessly integrates with the Elementor platform, providing you </p>
+        <p className="text-[#9890a9] pt-1 flex justify-center">with a seamless and intuitive experience.</p>
+
+    </div>
+</div>
+
+<div className="mt-14 flex justify-between">
+    <div className=" justify-between bg-[#1d162d] rounded-lg ">
+    <img src="/motionarteffect-img9.png" alt="thunder"/>
+    <div className="px-8 py-4">
+    <p className="text-[#eee5ff] text-3xl pt-4 font-semibold">Light Weight</p>
+    <p className="text-[#9890a9] pt-6 flex justify-center">Motion Art for Elementor is designed to be</p>
+    <p className="text-[#9890a9] pt-1 flex ">lightweight.</p>
+    </div>
+    </div>
+    <div className=" justify-between bg-[#1d162d] rounded-lg">
+    <img src="/motionarteffect-img6.png" alt="thunder"/>
+    <div className="px-8 py-4">
+    <p className="text-[#eee5ff] text-3xl pt-4 font-semibold">100% Responsive</p>
+    <p className="text-[#9890a9] pt-6 flex justify-center">Create a constitent visual experience</p>
+    <p className="text-[#9890a9] pt-1 flex ">across all devices.</p>
+    </div>
+    </div>
+    <div className=" justify-between bg-[#1d162d] rounded-lg">
+    <img src="/motionarteffect-img7.png" alt="thunder"/>
+    <div className="px-8 py-4">
+    <p className="text-[#eee5ff] text-3xl pt-4 font-semibold">User Friendly Interface</p>
+    <p className="text-[#9890a9] pt-6 flex ">Ensure a smooth experience for both</p>
+    <p className="text-[#9890a9] pt-1 flex ">applications and administrators.</p>
+    </div>
+    </div>
+
+
+
+
+</div>
 
 
 
