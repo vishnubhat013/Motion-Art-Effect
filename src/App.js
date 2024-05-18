@@ -6,9 +6,11 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
+    <div className='flex flex-col'>
     <Header/>
     <Homeone/>
     <Footer/>
+    </div>
     </>
   );
 }

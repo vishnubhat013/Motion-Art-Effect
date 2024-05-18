@@ -1,22 +1,20 @@
 import React from 'react'
-
+import { FaRegCopyright } from "react-icons/fa6";
 function Footer() {
   return (
     
-    <div className="bg-gradient-to-r from-[#f87516] to-[90%] font-semibold to-[#5e11ff] px-36 py-4 ">
-      <div className="flex">
-      <div className="">
-        <p  className="text-[#b3acc5] text-sm  ">2023 Copywrite . All rights reserved by QodeMatrix</p>
+    
+    <>
+      <div className="bg-gradient-to-r flex md:flex-row-reverse flex-col justify-center md:justify-between items-center from-[#f87516] to-[90%] font-semibold to-[#5e11ff] py-4 px-4 md:px-16 text-xs md:text-base w-full">
+        <div className='flex gap-6 justify-between'>
+        <p className="text-[#b3acc5]">Documentation</p>
+          <p className="text-[#b3acc5] ">  support</p>
         </div>
-        <div className="ml-auto px-6">
-        <p className="text-[#b3acc5]  ">Documentation</p>
-        </div>
-        <div>
-        <p className="text-[#b3acc5] ">  support</p>
-        </div>
-        
-      </div>
+          <p  className="text-[#b3acc5] flex gap-2 items-center"><FaRegCopyright size={15} c/>2023 Copywrite . All rights reserved by QodeMatrix</p>
+          
     </div>
+
+    </>
    
   )
 }
