@@ -2,9 +2,12 @@ import React from 'react'
 import { GoArrowRight } from "react-icons/go";
 
 function Homeone() {
+    const handleClick = () => {
+        window.location.href = 'https://codecanyon.net/checkout/102316867/create_account?_ga=2.43125925.1669195575.1716209776-1129150054.1713500484';
+      };
   return (
 <>
-    <div className='flex flex-col w-[90vw] md:w-[80vw] mx-auto pb-8 mb-20'>
+    <div className='flex flex-col w-[90vw] md:w-[85vw] mx-auto pb-8 mb-20'>
 
     <div className='pt-12 mx-8'>
       <div className=" px-4 pt-10 flex justify-between">
@@ -66,7 +69,7 @@ function Homeone() {
     <p className="text-[#b3acc5] md:text-base text-xs pt-6 text-center">Motion Art for Elementor is a groundbreaking plugin that empowers you to effortlessly infuse</p>
     <p className=" text-[#b3acc5] md:text-base text-xs pt-1 text-center ">your website with visually stunning motion art elements.</p>
      <div className="mt-8 text-red-100">
-    <button className=" bg-gradient-to-r from-[#5e11ff] to-[110%] to-[#f87516] rounded-lg text-lg px-14 py-4 flex items-center gap-4">Purchase From Envato<GoArrowRight size={25} c/></button>
+    <button className="bg-gradient-to-r from-[#5e11ff] to-[110%] to-[#f87516] rounded-lg text-lg px-14 py-4 flex items-center gap-4" onclick={handleClick}>Purchase From Envato<GoArrowRight size={25} c/></button>
 </div>
     </div>
     <div className="md:items-end items-center">

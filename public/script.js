@@ -47,7 +47,7 @@
             );
         }
 
-        gl.clearColor(0.0, 0.0, 0.0, 1.0);
+        gl.clearColor(0,0,0,0.5);
 
         const halfFloatTexType = isWebGL2
             ? gl.HALF_FLOAT
@@ -844,12 +844,12 @@
         }
     }
 
-    window.addEventListener("mousemove", (e) => {
+    document.addEventListener("mousemove", (e) => {
         pointers[0].moved = pointers[0].down;
-        pointers[0].dx = (e.offsetX - pointers[0].x) * 10.0;
-        pointers[0].dy = (e.offsetY - pointers[0].y) * 10.0;
-        pointers[0].x = e.offsetX;
-        pointers[0].y = e.offsetY;
+        pointers[0].dx = (e.pageX - pointers[0].x) * 10.0;
+        pointers[0].dy = (e.pageY - pointers[0].y) * 10.0;
+        pointers[0].x = e.pageX;
+        pointers[0].y = e.pageY;
         pointers[0].color = [
             Math.random() + 0.2,
             Math.random() + 0.2,
@@ -857,7 +857,7 @@
         ];
     });
 
-    window.addEventListener(
+    document.addEventListener(
         "touchmove",
         (e) => {
             e.preventDefault();
@@ -879,7 +879,7 @@
 
     // });
 
-    window.addEventListener("touchstart", (e) => {
+    document.addEventListener("touchstart", (e) => {
         e.preventDefault();
         const touches = e.targetTouches;
         for (let i = 0; i < touches.length; i++) {
@@ -901,7 +901,7 @@
     //     pointers[0].down = false;
     // });
 
-    window.addEventListener("touchend", (e) => {
+    document.addEventListener("touchend", (e) => {
         const touches = e.changedTouches;
         for (let i = 0; i < touches.length; i++)
             for (let j = 0; j < pointers.length; j++)

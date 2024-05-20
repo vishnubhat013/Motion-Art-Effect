@@ -14,7 +14,7 @@ export default function Background(){
       }, []);
     return(
         <>
-            <canvas></canvas>
+            <canvas className='bg-transparent'></canvas>
         </>
     )
 }

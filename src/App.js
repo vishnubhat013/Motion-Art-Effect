@@ -7,12 +7,15 @@ function App() {
 
   return (
     <>
-    {/* <div className='flex flex-col'>
+    <div className='z-0'>
+      <Background />
+    </div>
+    <div className='flex flex-col z-50 absolute w-full'>
     <Header/>
     <Homeone/>
     <Footer/>
-    </div> */}
-    <Background />
+    </div>
+    
     </>
   );
 }
