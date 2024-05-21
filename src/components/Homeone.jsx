@@ -17,7 +17,7 @@ function Homeone() {
         <img src="/MotionArtEffect-logo.png" alt="motion art effect" className="md:justify-start"/>
         </div>
         <div>
-      <button type="button" onClick={handleClick}className =" md:block hidden justify-end text-[#0d051f] bg-[#ffffff] font-medium rounded-md text-lg px-8 py-3 me-2 mb-2 ">Purchase Now</button>
+      <button type="button" onClick={handleClick}className ="duration-300 ease-in-out hover:text-white hover:border-white hover:border-2 hover:bg-transparent md:block hidden justify-end text-[#0d051f] bg-[#ffffff] font-medium rounded-md text-lg px-8 py-3 me-2 mb-2 ">Purchase Now</button>
       </div>
       </div>
 
@@ -81,8 +81,8 @@ function Homeone() {
 
     <div className="flex justify-center text-center mt-28">
     <div>
-        <p className="text-[#eee5ff] md:text-5xl  text-3xl flex items-center  ">Apply On Any Section Or Enable</p>
-        <p className="text-[#eee5ff] md:text-5xl  text-3xl flex justify-center pt-2">For Whole Page</p>
+        <p className="text-[#eee5ff] md:text-5xl font-semibold text-3xl flex items-center  ">Apply On Any Section Or Enable</p>
+        <p className="text-[#eee5ff] md:text-5xl font-semibold text-3xl flex justify-center pt-2">For Whole Page</p>
         </div>
     </div>
 
