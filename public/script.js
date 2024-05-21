@@ -47,6 +47,7 @@ function getWebGLContext(canvas) {
     }
 
     gl.clearColor(0.0, 0.0, 0.0, 1.0);
+    
 
     const halfFloatTexType = isWebGL2
         ? gl.HALF_FLOAT
