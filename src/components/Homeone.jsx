@@ -90,7 +90,7 @@ function Homeone() {
      <div className="mb-10">
         <div className="bg-gradient-to-b from-[#0d061f] to-[#251e35] rounded-2xl">
         <div className="py-8  px-8 rounded-3xl">
-            <p className="text-[#ebe2fc] text-2xl font-semibold">Apply On Section</p>
+            <p className="text-[#ebe2fc] md:text-3xl text-2xl font-semibold">Apply On Section</p>
             <p className="text-[#b3acc5] md:text-base text-sm pt-4">Apply on section is a game-changer ,offering an unparalled way to </p>
             <p className="text-[#b3acc5] md:text-base text-sm pt-2">manage applications directly from your website.</p>
             <img  src="/motionarteffect-img11.png" alt="template" className="pt-8"/>
@@ -100,7 +100,7 @@ function Homeone() {
         <div className="md:mt-16 mt-2">
         <div className="bg-gradient-to-b from-[#0d061f] to-[#251e35] rounded-2xl">
         <div className="py-8 px-8 rounded-3xl">
-            <p className="text-[#ebe2fc] text-2xl font-semibold">Apply On Page</p>
+            <p className="text-[#ebe2fc] md:text-3xl  text-2xl font-semibold">Apply On Page</p>
             <p className="text-[#b3acc5] md:text-base text-sm pt-4">Take your website to new heights with Motion Art for Elementor. </p>
             <p className="text-[#b3acc5] md:text-base text-sm pt-2">  Embrace the power of motion and animation.</p>
             <img  src="/motionarteffect-img10.png" alt="template" className="pt-8"/>
