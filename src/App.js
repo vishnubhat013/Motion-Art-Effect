@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-    <div className='z-0'>
+    <div className='z-0 '>
       <Background />
     </div>
     <div className='flex flex-col z-50 absolute w-full sora '>

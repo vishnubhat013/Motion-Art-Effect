@@ -4,6 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Sora:wght@100..800&display=swap');
 
 
+body{
+    background-color: #47318d;    
+}
 
 .outfit{
     font-family: "Outfit", sans-serif;
@@ -27,6 +30,7 @@ canvas {
     left:0;
     z-index: -4;
     filter: brightness(125%);
+    opacity: 0.8;
 }
 
 .sora {

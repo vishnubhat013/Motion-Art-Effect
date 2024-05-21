@@ -46,8 +46,8 @@ function getWebGLContext(canvas) {
         );
     }
 
-    gl.clearColor(0.0, 0.0, 0.0, 1.0);
-    
+    // Change the clear color to white
+    gl.clearColor(0, 0, 0, 1);
 
     const halfFloatTexType = isWebGL2
         ? gl.HALF_FLOAT
@@ -102,6 +102,7 @@ function getWebGLContext(canvas) {
         },
     };
 }
+
 
 function getSupportedFormat(gl, internalFormat, format, type) {
     if (!supportRenderTextureFormat(gl, internalFormat, format, type)) {
@@ -660,6 +661,7 @@ let lastTime = Date.now();
 multipleSplats(parseInt(Math.random() * 20) + 5);
 update();
 
+
 function update() {
     resizeCanvas();
 
@@ -667,6 +669,7 @@ function update() {
     lastTime = Date.now();
 
     gl.viewport(0, 0, textureWidth, textureHeight);
+    
 
     if (splatStack.length > 0) multipleSplats(splatStack.pop());
 
@@ -898,4 +901,4 @@ window.addEventListener("touchend", (e) => {
         for (let j = 0; j < pointers.length; j++)
             if (touches[i].identifier == pointers[j].id)
                 pointers[j].down = false;
-});dev
+});
