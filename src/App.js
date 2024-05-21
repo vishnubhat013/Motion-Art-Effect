@@ -10,7 +10,7 @@ function App() {
     <div className='z-0'>
       <Background />
     </div>
-    <div className='flex flex-col z-50 absolute w-full'>
+    <div className='flex flex-col z-50 absolute w-full sora bg-[#0e0f1a]'>
     <Header/>
     <Homeone/>
     <Footer/>

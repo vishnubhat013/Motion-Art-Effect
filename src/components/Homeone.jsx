@@ -29,14 +29,14 @@ function Homeone() {
         <p  className='text-white pt-3'>With Motion Art </p>
         <p className='text-white'>Effect</p>
         </div>
-        <div className="bg-gradient-to-r from-[#f87516] to-[70%] font-semibold to-[#5e11ff] md:px-40  px-2 pt-10 flex-col w-fit  items-center bg-clip-text text-xl text-left">
-        <p className="text-white md:text-7xl text-4xl text-center  ">Attract Your</p>
-        <p className='text-white md:text-7xl text-4xl py-2 text-center'>Visitors Attention</p>
-        <p  className='text-white pt-2 md:text-7xl text-4xl text-center py-2'>With Colourfull</p>
-        <p className="text-transparent md:text-7xl text-4xl py-2 text-center"> Motion Art Effect</p>
-        <p className="text-[#9e99ae]  text-sm  md:text-lg text-center pt-8">Unleash the power of creativity with Motion Art for Elementor - your </p>
-        <p className="text-[#9e99ae] text-sm  md:text-lg text-center">ultimate solution for seamlessly integrating captivity animantions into </p>
-        <p className="text-[#9e99ae] text-sm  md:text-lg text-center">your websites.</p>
+        <div className="bg-gradient-to-r from-[#f87516] to-[70%]  to-[#5e11ff] md:px-40  px-2 pt-10 flex-col w-fit  items-center bg-clip-text text-xl text-left">
+        <p className="text-white md:text-7xl text-4xl text-center md:text-left   ">Attract Your</p>
+        <p className='text-white md:text-7xl text-4xl py-2 text-center md:text-left'>Visitors Attention</p>
+        <p  className='text-white pt-2 md:text-7xl text-4xl text-center md:text-left py-2'>With Colourfull</p>
+        <p className="text-transparent md:text-7xl text-4xl py-2 text-center md:text-left"> Motion Art Effect</p>
+        <p className="text-[#9e99ae]  text-sm  md:text-lg text-center md:text-left pt-8">Unleash the power of creativity with Motion Art for Elementor - your </p>
+        <p className="text-[#9e99ae] text-sm  md:text-lg text-center md:text-left">ultimate solution for seamlessly integrating captivity animantions into </p>
+        <p className="text-[#9e99ae] text-sm  md:text-lg text-center md:text-left">your websites.</p>
         </div>
       </div>
 
@@ -64,14 +64,14 @@ function Homeone() {
         </div>
     </div>
     
-<div className="flex mt-28 text-2xl gap-8 justify-center  items-center md:flex-row flex-col">
+<div className="flex mt-28 text-2xl gap-8 justify-between  items-center md:flex-row flex-col">
     <div>  
     <p className="text-[#eee5ff] text-3xl md:text-5xl  font-semibold md:text-start text-center">Turn Your Cursor into colourful</p>
     <p className="text-[#eee5ff]  text-3xl md:text-5xl text-center md:text-start font-semibold ">Magic Wand & Charm your Visitor</p>
     <p className="text-[#b3acc5] md:text-lg text-base pt-6 md:text-start text-center">Motion Art for Elementor is a groundbreaking plugin that empowers you to effortlessly infuse</p>
     <p className=" text-[#b3acc5] md:text-lg text-base pt-1 md:text-start text-center ">your website with visually stunning motion art elements.</p>
      <div className="mt-8 text-red-100">
-    <button type="button" className="bg-gradient-to-r from-[#5e11ff] to-[110%] to-[#f87516] rounded-2xl text-2xl px-14 py-4 flex items-center gap-4" onClick={handleClick}>Purchase From Envato<GoArrowRight size={25} c/></button>
+    <button type="button" className="bg-gradient-to-r from-[#5e11ff] to-[110%] to-[#f87516] rounded-[1.25rem] text-[1.25rem] md:px-10 px-6 py-4 flex items-center gap-4 " onClick={handleClick}>Purchase From Envato<GoArrowRight size={25} c/></button>
 </div>
     </div>
     <div className="md:items-end items-center">
